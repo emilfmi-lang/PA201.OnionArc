@@ -1,0 +1,224 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{03FA1200-FE6C-4203-9B38-2AC2DCA6E45F}|src\\Infastructure\\OnionArch.Persistance\\OnionArch.Persistance.csproj|c:\\users\\user\\desktop\\onion.arc\\onionarch\\src\\infastructure\\onionarch.persistance\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03FA1200-FE6C-4203-9B38-2AC2DCA6E45F}|src\\Infastructure\\OnionArch.Persistance\\OnionArch.Persistance.csproj|solutionrelative:src\\infastructure\\onionarch.persistance\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03FA1200-FE6C-4203-9B38-2AC2DCA6E45F}|src\\Infastructure\\OnionArch.Persistance\\OnionArch.Persistance.csproj|c:\\users\\user\\desktop\\onion.arc\\onionarch\\src\\infastructure\\onionarch.persistance\\onionarch.persistance.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{03FA1200-FE6C-4203-9B38-2AC2DCA6E45F}|src\\Infastructure\\OnionArch.Persistance\\OnionArch.Persistance.csproj|solutionrelative:src\\infastructure\\onionarch.persistance\\onionarch.persistance.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7642C0EB-CD4F-4BD9-8BCE-BBC48062C776}|src\\Core\\OnionArch.Application\\OnionArch.Application.csproj|c:\\users\\user\\desktop\\onion.arc\\onionarch\\src\\core\\onionarch.application\\services\\concretes\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7642C0EB-CD4F-4BD9-8BCE-BBC48062C776}|src\\Core\\OnionArch.Application\\OnionArch.Application.csproj|solutionrelative:src\\core\\onionarch.application\\services\\concretes\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7642C0EB-CD4F-4BD9-8BCE-BBC48062C776}|src\\Core\\OnionArch.Application\\OnionArch.Application.csproj|c:\\users\\user\\desktop\\onion.arc\\onionarch\\src\\core\\onionarch.application\\interfaces\\iapplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7642C0EB-CD4F-4BD9-8BCE-BBC48062C776}|src\\Core\\OnionArch.Application\\OnionArch.Application.csproj|solutionrelative:src\\core\\onionarch.application\\interfaces\\iapplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7642C0EB-CD4F-4BD9-8BCE-BBC48062C776}|src\\Core\\OnionArch.Application\\OnionArch.Application.csproj|c:\\users\\user\\desktop\\onion.arc\\onionarch\\src\\core\\onionarch.application\\services\\interfaces\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7642C0EB-CD4F-4BD9-8BCE-BBC48062C776}|src\\Core\\OnionArch.Application\\OnionArch.Application.csproj|solutionrelative:src\\core\\onionarch.application\\services\\interfaces\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D81717DF-EB83-4653-AB7E-477FF6E572D2}|src\\Core\\OnionArch.Domain\\OnionArch.Domain.csproj|c:\\users\\user\\desktop\\onion.arc\\onionarch\\src\\core\\onionarch.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D81717DF-EB83-4653-AB7E-477FF6E572D2}|src\\Core\\OnionArch.Domain\\OnionArch.Domain.csproj|solutionrelative:src\\core\\onionarch.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7642C0EB-CD4F-4BD9-8BCE-BBC48062C776}|src\\Core\\OnionArch.Application\\OnionArch.Application.csproj|c:\\users\\user\\desktop\\onion.arc\\onionarch\\src\\core\\onionarch.application\\onionarch.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7642C0EB-CD4F-4BD9-8BCE-BBC48062C776}|src\\Core\\OnionArch.Application\\OnionArch.Application.csproj|solutionrelative:src\\core\\onionarch.application\\onionarch.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7642C0EB-CD4F-4BD9-8BCE-BBC48062C776}|src\\Core\\OnionArch.Application\\OnionArch.Application.csproj|c:\\users\\user\\desktop\\onion.arc\\onionarch\\src\\core\\onionarch.application\\dtos\\category\\categorycreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7642C0EB-CD4F-4BD9-8BCE-BBC48062C776}|src\\Core\\OnionArch.Application\\OnionArch.Application.csproj|solutionrelative:src\\core\\onionarch.application\\dtos\\category\\categorycreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D81717DF-EB83-4653-AB7E-477FF6E572D2}|src\\Core\\OnionArch.Domain\\OnionArch.Domain.csproj|c:\\users\\user\\desktop\\onion.arc\\onionarch\\src\\core\\onionarch.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D81717DF-EB83-4653-AB7E-477FF6E572D2}|src\\Core\\OnionArch.Domain\\OnionArch.Domain.csproj|solutionrelative:src\\core\\onionarch.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D81717DF-EB83-4653-AB7E-477FF6E572D2}|src\\Core\\OnionArch.Domain\\OnionArch.Domain.csproj|c:\\users\\user\\desktop\\onion.arc\\onionarch\\src\\core\\onionarch.domain\\enums\\productstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D81717DF-EB83-4653-AB7E-477FF6E572D2}|src\\Core\\OnionArch.Domain\\OnionArch.Domain.csproj|solutionrelative:src\\core\\onionarch.domain\\enums\\productstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D81717DF-EB83-4653-AB7E-477FF6E572D2}|src\\Core\\OnionArch.Domain\\OnionArch.Domain.csproj|c:\\users\\user\\desktop\\onion.arc\\onionarch\\src\\core\\onionarch.domain\\entities\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D81717DF-EB83-4653-AB7E-477FF6E572D2}|src\\Core\\OnionArch.Domain\\OnionArch.Domain.csproj|solutionrelative:src\\core\\onionarch.domain\\entities\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D81717DF-EB83-4653-AB7E-477FF6E572D2}|src\\Core\\OnionArch.Domain\\OnionArch.Domain.csproj|c:\\users\\user\\desktop\\onion.arc\\onionarch\\src\\core\\onionarch.domain\\onionarch.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D81717DF-EB83-4653-AB7E-477FF6E572D2}|src\\Core\\OnionArch.Domain\\OnionArch.Domain.csproj|solutionrelative:src\\core\\onionarch.domain\\onionarch.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OnionArch.Persistance",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Infastructure\\OnionArch.Persistance\\OnionArch.Persistance.csproj",
+              "RelativeDocumentMoniker": "src\\Infastructure\\OnionArch.Persistance\\OnionArch.Persistance.csproj",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Infastructure\\OnionArch.Persistance\\OnionArch.Persistance.csproj",
+              "RelativeToolTip": "src\\Infastructure\\OnionArch.Persistance\\OnionArch.Persistance.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-06T17:21:30.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Infastructure\\OnionArch.Persistance\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "src\\Infastructure\\OnionArch.Persistance\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Infastructure\\OnionArch.Persistance\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "src\\Infastructure\\OnionArch.Persistance\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T17:21:44.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OnionArch.Application",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Application\\OnionArch.Application.csproj",
+              "RelativeDocumentMoniker": "src\\Core\\OnionArch.Application\\OnionArch.Application.csproj",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Application\\OnionArch.Application.csproj",
+              "RelativeToolTip": "src\\Core\\OnionArch.Application\\OnionArch.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-06T17:13:29.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Application\\Interfaces\\IApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "src\\Core\\OnionArch.Application\\Interfaces\\IApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Application\\Interfaces\\IApplicationDbContext.cs",
+              "RelativeToolTip": "src\\Core\\OnionArch.Application\\Interfaces\\IApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T17:11:52.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Application\\Services\\Concretes\\CategoryService.cs",
+              "RelativeDocumentMoniker": "src\\Core\\OnionArch.Application\\Services\\Concretes\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Application\\Services\\Concretes\\CategoryService.cs",
+              "RelativeToolTip": "src\\Core\\OnionArch.Application\\Services\\Concretes\\CategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T17:10:02.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CategoryCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Application\\Dtos\\Category\\CategoryCreateDto.cs",
+              "RelativeDocumentMoniker": "src\\Core\\OnionArch.Application\\Dtos\\Category\\CategoryCreateDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Application\\Dtos\\Category\\CategoryCreateDto.cs",
+              "RelativeToolTip": "src\\Core\\OnionArch.Application\\Dtos\\Category\\CategoryCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T17:03:00.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Application\\Services\\Interfaces\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "src\\Core\\OnionArch.Application\\Services\\Interfaces\\ICategoryService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Application\\Services\\Interfaces\\ICategoryService.cs",
+              "RelativeToolTip": "src\\Core\\OnionArch.Application\\Services\\Interfaces\\ICategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T16:59:28.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Domain\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "src\\Core\\OnionArch.Domain\\Entities\\Category.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Domain\\Entities\\Category.cs",
+              "RelativeToolTip": "src\\Core\\OnionArch.Domain\\Entities\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T16:53:10.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductStatus.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Domain\\Enums\\ProductStatus.cs",
+              "RelativeDocumentMoniker": "src\\Core\\OnionArch.Domain\\Enums\\ProductStatus.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Domain\\Enums\\ProductStatus.cs",
+              "RelativeToolTip": "src\\Core\\OnionArch.Domain\\Enums\\ProductStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T16:56:27.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Domain\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "src\\Core\\OnionArch.Domain\\Entities\\Product.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Domain\\Entities\\Product.cs",
+              "RelativeToolTip": "src\\Core\\OnionArch.Domain\\Entities\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T16:54:55.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Domain\\Entities\\Common\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "src\\Core\\OnionArch.Domain\\Entities\\Common\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Domain\\Entities\\Common\\BaseEntity.cs",
+              "RelativeToolTip": "src\\Core\\OnionArch.Domain\\Entities\\Common\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T16:53:23.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OnionArch.Domain",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Domain\\OnionArch.Domain.csproj",
+              "RelativeDocumentMoniker": "src\\Core\\OnionArch.Domain\\OnionArch.Domain.csproj",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Domain\\OnionArch.Domain.csproj",
+              "RelativeToolTip": "src\\Core\\OnionArch.Domain\\OnionArch.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-06T16:52:24.696Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

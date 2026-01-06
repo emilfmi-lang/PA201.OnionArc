@@ -1,0 +1,16 @@
+C:\Users\User\Desktop\Onion.Arc\OnionArch\src\Core\OnionArch.Application\bin\Debug\net10.0\OnionArch.Application.deps.json
+C:\Users\User\Desktop\Onion.Arc\OnionArch\src\Core\OnionArch.Application\bin\Debug\net10.0\OnionArch.Application.dll
+C:\Users\User\Desktop\Onion.Arc\OnionArch\src\Core\OnionArch.Application\bin\Debug\net10.0\OnionArch.Application.pdb
+C:\Users\User\Desktop\Onion.Arc\OnionArch\src\Core\OnionArch.Application\bin\Debug\net10.0\OnionArch.Domain.dll
+C:\Users\User\Desktop\Onion.Arc\OnionArch\src\Core\OnionArch.Application\bin\Debug\net10.0\OnionArch.Domain.pdb
+C:\Users\User\Desktop\Onion.Arc\OnionArch\src\Core\OnionArch.Application\obj\Debug\net10.0\OnionArch.Application.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Onion.Arc\OnionArch\src\Core\OnionArch.Application\obj\Debug\net10.0\OnionArch.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Onion.Arc\OnionArch\src\Core\OnionArch.Application\obj\Debug\net10.0\OnionArch.Application.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Onion.Arc\OnionArch\src\Core\OnionArch.Application\obj\Debug\net10.0\OnionArch.Application.AssemblyInfo.cs
+C:\Users\User\Desktop\Onion.Arc\OnionArch\src\Core\OnionArch.Application\obj\Debug\net10.0\OnionArch.Application.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Onion.Arc\OnionArch\src\Core\OnionArch.Application\obj\Debug\net10.0\OnionArch.Application.sourcelink.json
+C:\Users\User\Desktop\Onion.Arc\OnionArch\src\Core\OnionArch.Application\obj\Debug\net10.0\OnionArc.0176D343.Up2Date
+C:\Users\User\Desktop\Onion.Arc\OnionArch\src\Core\OnionArch.Application\obj\Debug\net10.0\OnionArch.Application.dll
+C:\Users\User\Desktop\Onion.Arc\OnionArch\src\Core\OnionArch.Application\obj\Debug\net10.0\refint\OnionArch.Application.dll
+C:\Users\User\Desktop\Onion.Arc\OnionArch\src\Core\OnionArch.Application\obj\Debug\net10.0\OnionArch.Application.pdb
+C:\Users\User\Desktop\Onion.Arc\OnionArch\src\Core\OnionArch.Application\obj\Debug\net10.0\ref\OnionArch.Application.dll
