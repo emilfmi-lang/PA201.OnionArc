@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using AutoMapper;
+using Microsoft.EntityFrameworkCore;
 using OnionArch.Application.Dtos.Category;
 using OnionArch.Application.Interfaces;
 using OnionArch.Application.Services.Interfaces;
@@ -6,14 +7,11 @@ using OnionArch.Domain.Entities;
 
 namespace OnionArch.Application.Services.Concretes;
 
-public class CategoryService(IApplicationDbContext dbContext) : ICategoryService
+public class CategoryService(IApplicationDbContext dbContext, IMapper mapper) : ICategoryService
 {
     public async Task CreateCategoryAsync(CategoryCreateDto categoryDto)
     {
-        var category = new Category
-        {
-            Name = categoryDto.Name
-        };
+        var category = mapper.Map<Category>(categoryDto);
         await dbContext.Categories.AddAsync(category);
         await dbContext.SaveChangesAsync();
     }
@@ -21,8 +19,8 @@ public class CategoryService(IApplicationDbContext dbContext) : ICategoryService
     public async Task<List<CategoryReturnDto>> GetAllCategoriesAsync()
     {
         var categories = await dbContext.Categories
-            .Select(c => new CategoryReturnDto(c.Id, c.Name))
             .ToListAsync();
-        return categories;
+        var categoriesDto = mapper.Map<List<CategoryReturnDto>>(categories);
+        return categoriesDto;
     }
 }
