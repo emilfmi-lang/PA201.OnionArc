@@ -12,13 +12,13 @@ public class CategoriesController(ICategoryService categoryService) : Controller
     [HttpGet]
     public async Task<IActionResult> GetAllCategories()
     {
-        var categories = await categoryService.GetAllCategoriesAsync();
-        return Ok(categories);
+        var response = await categoryService.GetAllCategoriesAsync();
+        return Ok(response);
     }
     [HttpPost]
     public async Task<IActionResult> CreateCategory(CategoryCreateDto createDto)
     {
-        await categoryService.CreateCategoryAsync(createDto);
-        return Ok();
+        var response = await categoryService.CreateCategoryAsync(createDto);
+        return Ok(response);
     }
 }

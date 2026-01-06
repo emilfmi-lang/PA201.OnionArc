@@ -1,11 +1,12 @@
 ﻿using OnionArch.Application.Dtos.Category;
+using OnionArch.Application.Models;
 
 namespace OnionArch.Application.Services.Interfaces;
 
 public interface ICategoryService
 {
-    Task<List<CategoryReturnDto>> GetAllCategoriesAsync();
-    Task CreateCategoryAsync(CategoryCreateDto categoryDto);
+    Task<ResponseModel<CategoryReturnDto>> CreateCategoryAsync(CategoryCreateDto categoryDto);
+    Task<ResponseModel<List<CategoryReturnDto>>> GetAllCategoriesAsync();
 }
 
 
