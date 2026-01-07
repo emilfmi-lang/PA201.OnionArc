@@ -7,7 +7,7 @@ using OnionArch.Domain.Enums;
 
 namespace OnionArch.Application.Profiles;
 
-public class MapProfile:Profile
+public class MapProfile : Profile
 {
     public MapProfile()
     {
@@ -15,7 +15,14 @@ public class MapProfile:Profile
             .ConstructUsing(c => new CategoryReturnDto(c.Id, c.Name));
         CreateMap<CategoryCreateDto, Category>();
         CreateMap<Product, ProductReturnDto>()
-            .ConstructUsing(p => new ProductReturnDto(p.Name, p.Price, p.CategoryId, p.Status));
+            .ConstructUsing(p => new ProductReturnDto(
+                p.Name,
+                p.Price,
+                p.Category != null ? p.Category.Name : string.Empty,
+                p.Status.ToString()
+            ));
+        //.ForMember(dest => dest.ProductStatusName, opt => opt.MapFrom(src => src.Status.ToString()))
+        //.ForMember(dest => dest.CategoryName, opt => opt.MapFrom(src => src.Category.Name));
         CreateMap<ProductCreateDto, Product>();
     }
 }

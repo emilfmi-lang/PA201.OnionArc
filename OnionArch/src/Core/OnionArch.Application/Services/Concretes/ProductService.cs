@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using AutoMapper.QueryableExtensions;
 using FluentValidation;
 using Microsoft.EntityFrameworkCore;
 using OnionArch.Application.Dtos.Product;
@@ -45,9 +46,9 @@ public class ProductService(IApplicationDbContext dbContext,IMapper mapper,
 
     public async Task<ResponseModel<List<ProductReturnDto>>> GetAllProductsAsync()
     {
-        var products = await dbContext.Products.ToListAsync();
-        var productsDto = mapper.Map<List<ProductReturnDto>>(products);
-        return ResponseModel<List<ProductReturnDto>>.Success(productsDto);
+        var products = await dbContext.Products
+            .ProjectTo<ProductReturnDto>(mapper.ConfigurationProvider).ToListAsync();
+        return ResponseModel<List<ProductReturnDto>>.Success(products);
     }
 
     public async Task<ResponseModel<ProductReturnDto>> ProductGetByIdAsync(int id)
