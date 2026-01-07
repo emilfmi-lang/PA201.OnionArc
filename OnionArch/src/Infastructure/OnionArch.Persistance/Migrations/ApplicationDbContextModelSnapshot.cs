@@ -38,6 +38,23 @@ namespace OnionArch.Persistance.Migrations
                     b.ToTable("Categories");
                 });
 
+            modelBuilder.Entity("OnionArch.Domain.Entities.Color", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Colors");
+                });
+
             modelBuilder.Entity("OnionArch.Domain.Entities.Product", b =>
                 {
                     b.Property<int>("Id")
@@ -66,6 +83,21 @@ namespace OnionArch.Persistance.Migrations
                     b.ToTable("Products");
                 });
 
+            modelBuilder.Entity("OnionArch.Domain.Entities.ProductColor", b =>
+                {
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ColorId")
+                        .HasColumnType("int");
+
+                    b.HasKey("ProductId", "ColorId");
+
+                    b.HasIndex("ColorId");
+
+                    b.ToTable("ProductColors");
+                });
+
             modelBuilder.Entity("OnionArch.Domain.Entities.Product", b =>
                 {
                     b.HasOne("OnionArch.Domain.Entities.Category", "Category")
@@ -77,9 +109,38 @@ namespace OnionArch.Persistance.Migrations
                     b.Navigation("Category");
                 });
 
+            modelBuilder.Entity("OnionArch.Domain.Entities.ProductColor", b =>
+                {
+                    b.HasOne("OnionArch.Domain.Entities.Color", "Color")
+                        .WithMany("ProductColors")
+                        .HasForeignKey("ColorId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("OnionArch.Domain.Entities.Product", "Product")
+                        .WithMany("ProductColors")
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Color");
+
+                    b.Navigation("Product");
+                });
+
             modelBuilder.Entity("OnionArch.Domain.Entities.Category", b =>
                 {
                     b.Navigation("Products");
+                });
+
+            modelBuilder.Entity("OnionArch.Domain.Entities.Color", b =>
+                {
+                    b.Navigation("ProductColors");
+                });
+
+            modelBuilder.Entity("OnionArch.Domain.Entities.Product", b =>
+                {
+                    b.Navigation("ProductColors");
                 });
 #pragma warning restore 612, 618
         }

@@ -11,4 +11,5 @@ public class Product:BaseEntity
     public ProductStatus Status { get; set; }
     public int CategoryId { get; set; }
     public Category Category { get; set; } = null!;
+    public List<ProductColor> ProductColors { get; set; } = new();
 }

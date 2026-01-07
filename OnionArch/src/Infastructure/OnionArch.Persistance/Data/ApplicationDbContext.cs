@@ -8,9 +8,16 @@ public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options
 {
     public DbSet<Category> Categories { get; set; }
     public DbSet<Product> Products { get; set; }
+    public DbSet<Color> Colors { get; set; }
+    public DbSet<ProductColor> ProductColors { get; set; }
 
     public Task<int> SaveChangesAsync()
     {
         return base.SaveChangesAsync();
+    }
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        modelBuilder.ApplyConfigurationsFromAssembly(typeof(ApplicationDbContext).Assembly);
+        base.OnModelCreating(modelBuilder);
     }
 }
