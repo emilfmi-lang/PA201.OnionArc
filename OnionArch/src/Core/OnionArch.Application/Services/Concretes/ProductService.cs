@@ -30,6 +30,19 @@ public class ProductService(IApplicationDbContext dbContext,IMapper mapper,
         return ResponseModel<ProductReturnDto>.Success(productDto);
 
     }
+
+    public async Task<ResponseModel<bool>> DeleteProductAsync(int id)
+    {
+        var product = await dbContext.Products.FindAsync(id);
+        if (product == null)
+        {
+            return ResponseModel<bool>.Failure("Product not found.");
+        }
+        dbContext.Products.Remove(product);
+        await dbContext.SaveChangesAsync();
+        return ResponseModel<bool>.Success(true);
+    }
+
     public async Task<ResponseModel<List<ProductReturnDto>>> GetAllProductsAsync()
     {
         var products = await dbContext.Products.ToListAsync();
@@ -47,4 +60,5 @@ public class ProductService(IApplicationDbContext dbContext,IMapper mapper,
         var productDto = mapper.Map<ProductReturnDto>(product);
         return ResponseModel<ProductReturnDto>.Success(productDto);
     }
+   
 }

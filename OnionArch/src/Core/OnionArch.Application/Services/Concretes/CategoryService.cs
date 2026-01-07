@@ -31,6 +31,16 @@ public class CategoryService(IApplicationDbContext dbContext, IMapper mapper,
         return ResponseModel<CategoryReturnDto>.Success(categoryReturnDto);
     }
 
+    public async Task<ResponseModel<bool>> DeleteCategoryAsync(int id)
+    {
+        var category = await dbContext.Categories.FindAsync(id);
+        if (category == null)
+            return ResponseModel<bool>.Failure("Category not found.");
+        dbContext.Categories.Remove(category);
+        await dbContext.SaveChangesAsync();
+        return ResponseModel<bool>.Success(true);
+    }
+
     public async Task<ResponseModel<List<CategoryReturnDto>>> GetAllCategoriesAsync()
     {
         var categories = await dbContext.Categories

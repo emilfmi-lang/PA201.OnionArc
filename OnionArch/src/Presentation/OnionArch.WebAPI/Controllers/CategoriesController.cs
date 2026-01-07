@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using OnionArch.Application.Dtos.Category;
 using OnionArch.Application.Services.Interfaces;
 
@@ -19,6 +18,12 @@ public class CategoriesController(ICategoryService categoryService) : Controller
     public async Task<IActionResult> CreateCategory(CategoryCreateDto createDto)
     {
         var response = await categoryService.CreateCategoryAsync(createDto);
+        return Ok(response);
+    }
+    [HttpDelete("{id}")]
+    public async Task<IActionResult> DeleteCategory(int id)
+    {
+        var response = await categoryService.DeleteCategoryAsync(id);
         return Ok(response);
     }
 }

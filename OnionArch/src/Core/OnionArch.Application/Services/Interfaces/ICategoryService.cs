@@ -7,6 +7,7 @@ public interface ICategoryService
 {
     Task<ResponseModel<CategoryReturnDto>> CreateCategoryAsync(CategoryCreateDto categoryDto);
     Task<ResponseModel<List<CategoryReturnDto>>> GetAllCategoriesAsync();
+    Task<ResponseModel<bool>>  DeleteCategoryAsync(int id);
 }
 
 
