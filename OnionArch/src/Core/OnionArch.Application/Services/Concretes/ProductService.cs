@@ -10,13 +10,13 @@ using OnionArch.Domain.Entities;
 
 namespace OnionArch.Application.Services.Concretes;
 
-public class ProductService(IApplicationDbContext dbContext,IMapper mapper,
+public class ProductService(IApplicationDbContext dbContext, IMapper mapper,
     IValidator<ProductCreateDto> validator
     ) : IProductService
 {
     public async Task<ResponseModel<ProductReturnDto>> CreateProductAsync(ProductCreateDto productCreateDto)
     {
-        if(await dbContext.Products.AnyAsync(p => p.Name == productCreateDto.Name))
+        if (await dbContext.Products.AnyAsync(p => p.Name == productCreateDto.Name))
             throw new Exception("Product with the same name already exists.");
         var validationResult = await validator.ValidateAsync(productCreateDto);
         if (!validationResult.IsValid)
@@ -53,7 +53,9 @@ public class ProductService(IApplicationDbContext dbContext,IMapper mapper,
 
     public async Task<ResponseModel<ProductReturnDto>> ProductGetByIdAsync(int id)
     {
-        var product = await dbContext.Products.FindAsync(id);
+        var product = await dbContext.Products
+                                     .Include(p => p.Category)    
+                                     .FirstOrDefaultAsync(p => p.Id == id);
         if (product == null)
         {
             return ResponseModel<ProductReturnDto>.Failure("Product not found.");
@@ -76,7 +78,7 @@ public class ProductService(IApplicationDbContext dbContext,IMapper mapper,
             var errors = validationResult.Errors.Select(e => e.ErrorMessage).ToList();
             return ResponseModel<bool>.Failure(errors);
         }
-        if(await dbContext.Products.AnyAsync(p => p.Name == productCreateDto.Name && p.Id != id))
+        if (await dbContext.Products.AnyAsync(p => p.Name == productCreateDto.Name && p.Id != id))
             return ResponseModel<bool>.Failure("Another product with the same name already exists.");
 
         mapper.Map(productCreateDto, product);

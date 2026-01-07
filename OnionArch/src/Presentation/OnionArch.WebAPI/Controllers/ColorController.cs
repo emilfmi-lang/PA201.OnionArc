@@ -21,4 +21,10 @@ public class ColorController(IColorServices colorServices) : ControllerBase
         var response = await colorServices.CreateColorAsync(createDto);
         return Ok(response);
     }
+    [HttpDelete("{id}")]
+    public async Task<IActionResult> DeleteColor(int id)
+    {
+        var response = await colorServices.DeleteColorAsync(id);
+        return Ok(response);
+    }
 }

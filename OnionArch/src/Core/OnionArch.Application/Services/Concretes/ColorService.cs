@@ -34,6 +34,16 @@ public class ColorService(IApplicationDbContext dbContext,IMapper mapper,
         return ResponseModel<ColorReturnDto>.Success(colorReturnDto);
     }
 
+    public async Task<ResponseModel<bool>> DeleteColorAsync(int id)
+    {
+        var color = await dbContext.Colors.FindAsync(id);
+        if (color == null)
+            return ResponseModel<bool>.Failure("Color not found.");
+        dbContext.Colors.Remove(color);
+        await dbContext.SaveChangesAsync();
+        return ResponseModel<bool>.Success(true);
+    }
+
     public async Task<ResponseModel<List<ColorReturnDto>>> GetAllColorsAsync()
     {
         var colors = await dbContext.Colors.ToListAsync();
