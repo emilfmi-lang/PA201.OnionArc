@@ -61,5 +61,27 @@ public class ProductService(IApplicationDbContext dbContext,IMapper mapper,
         var productDto = mapper.Map<ProductReturnDto>(product);
         return ResponseModel<ProductReturnDto>.Success(productDto);
     }
-   
+
+    public async Task<ResponseModel<bool>> UpdateProductAsync(int id, ProductCreateDto productCreateDto)
+    {
+        var product = await dbContext.Products.FindAsync(id);
+        if (product == null)
+        {
+            return ResponseModel<bool>.Failure("Product not found.");
+        }
+
+        var validationResult = await validator.ValidateAsync(productCreateDto);
+        if (!validationResult.IsValid)
+        {
+            var errors = validationResult.Errors.Select(e => e.ErrorMessage).ToList();
+            return ResponseModel<bool>.Failure(errors);
+        }
+        if(await dbContext.Products.AnyAsync(p => p.Name == productCreateDto.Name && p.Id != id))
+            return ResponseModel<bool>.Failure("Another product with the same name already exists.");
+
+        mapper.Map(productCreateDto, product);
+        dbContext.Products.Update(product);
+        await dbContext.SaveChangesAsync();
+        return ResponseModel<bool>.Success(true);
+    }
 }

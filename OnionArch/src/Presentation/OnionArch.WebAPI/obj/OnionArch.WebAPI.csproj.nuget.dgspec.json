@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\emilfmi\\Desktop\\Onion\\PA201.OnionArc\\OnionArch\\src\\Presentation\\OnionArch.WebAPI\\OnionArch.WebAPI.csproj": {}
+    "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Presentation\\OnionArch.WebAPI\\OnionArch.WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\emilfmi\\Desktop\\Onion\\PA201.OnionArc\\OnionArch\\src\\Core\\OnionArch.Application\\OnionArch.Application.csproj": {
+    "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Application\\OnionArch.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\emilfmi\\Desktop\\Onion\\PA201.OnionArc\\OnionArch\\src\\Core\\OnionArch.Application\\OnionArch.Application.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Application\\OnionArch.Application.csproj",
         "projectName": "OnionArch.Application",
-        "projectPath": "C:\\Users\\emilfmi\\Desktop\\Onion\\PA201.OnionArc\\OnionArch\\src\\Core\\OnionArch.Application\\OnionArch.Application.csproj",
-        "packagesPath": "C:\\Users\\emilfmi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\emilfmi\\Desktop\\Onion\\PA201.OnionArc\\OnionArch\\src\\Core\\OnionArch.Application\\obj\\",
+        "projectPath": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Application\\OnionArch.Application.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\emilfmi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,15 +26,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\emilfmi\\Desktop\\Onion\\PA201.OnionArc\\OnionArch\\src\\Core\\OnionArch.Domain\\OnionArch.Domain.csproj": {
-                "projectPath": "C:\\Users\\emilfmi\\Desktop\\Onion\\PA201.OnionArc\\OnionArch\\src\\Core\\OnionArch.Domain\\OnionArch.Domain.csproj"
+              "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Domain\\OnionArch.Domain.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Domain\\OnionArch.Domain.csproj"
               }
             }
           }
@@ -92,7 +91,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -370,20 +369,20 @@
         }
       }
     },
-    "C:\\Users\\emilfmi\\Desktop\\Onion\\PA201.OnionArc\\OnionArch\\src\\Core\\OnionArch.Domain\\OnionArch.Domain.csproj": {
+    "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Domain\\OnionArch.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\emilfmi\\Desktop\\Onion\\PA201.OnionArc\\OnionArch\\src\\Core\\OnionArch.Domain\\OnionArch.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Domain\\OnionArch.Domain.csproj",
         "projectName": "OnionArch.Domain",
-        "projectPath": "C:\\Users\\emilfmi\\Desktop\\Onion\\PA201.OnionArc\\OnionArch\\src\\Core\\OnionArch.Domain\\OnionArch.Domain.csproj",
-        "packagesPath": "C:\\Users\\emilfmi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\emilfmi\\Desktop\\Onion\\PA201.OnionArc\\OnionArch\\src\\Core\\OnionArch.Domain\\obj\\",
+        "projectPath": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Domain\\OnionArch.Domain.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\emilfmi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -392,7 +391,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -432,7 +430,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -710,20 +708,20 @@
         }
       }
     },
-    "C:\\Users\\emilfmi\\Desktop\\Onion\\PA201.OnionArc\\OnionArch\\src\\Infastructure\\OnionArch.Infastructure\\OnionArch.Infastructure.csproj": {
+    "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Infastructure\\OnionArch.Infastructure\\OnionArch.Infastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\emilfmi\\Desktop\\Onion\\PA201.OnionArc\\OnionArch\\src\\Infastructure\\OnionArch.Infastructure\\OnionArch.Infastructure.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Infastructure\\OnionArch.Infastructure\\OnionArch.Infastructure.csproj",
         "projectName": "OnionArch.Infastructure",
-        "projectPath": "C:\\Users\\emilfmi\\Desktop\\Onion\\PA201.OnionArc\\OnionArch\\src\\Infastructure\\OnionArch.Infastructure\\OnionArch.Infastructure.csproj",
-        "packagesPath": "C:\\Users\\emilfmi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\emilfmi\\Desktop\\Onion\\PA201.OnionArc\\OnionArch\\src\\Infastructure\\OnionArch.Infastructure\\obj\\",
+        "projectPath": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Infastructure\\OnionArch.Infastructure\\OnionArch.Infastructure.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Infastructure\\OnionArch.Infastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\emilfmi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -732,7 +730,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -772,7 +769,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -1050,20 +1047,20 @@
         }
       }
     },
-    "C:\\Users\\emilfmi\\Desktop\\Onion\\PA201.OnionArc\\OnionArch\\src\\Infastructure\\OnionArch.Persistance\\OnionArch.Persistance.csproj": {
+    "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Infastructure\\OnionArch.Persistance\\OnionArch.Persistance.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\emilfmi\\Desktop\\Onion\\PA201.OnionArc\\OnionArch\\src\\Infastructure\\OnionArch.Persistance\\OnionArch.Persistance.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Infastructure\\OnionArch.Persistance\\OnionArch.Persistance.csproj",
         "projectName": "OnionArch.Persistance",
-        "projectPath": "C:\\Users\\emilfmi\\Desktop\\Onion\\PA201.OnionArc\\OnionArch\\src\\Infastructure\\OnionArch.Persistance\\OnionArch.Persistance.csproj",
-        "packagesPath": "C:\\Users\\emilfmi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\emilfmi\\Desktop\\Onion\\PA201.OnionArc\\OnionArch\\src\\Infastructure\\OnionArch.Persistance\\obj\\",
+        "projectPath": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Infastructure\\OnionArch.Persistance\\OnionArch.Persistance.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Infastructure\\OnionArch.Persistance\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\emilfmi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -1072,15 +1069,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\emilfmi\\Desktop\\Onion\\PA201.OnionArc\\OnionArch\\src\\Core\\OnionArch.Application\\OnionArch.Application.csproj": {
-                "projectPath": "C:\\Users\\emilfmi\\Desktop\\Onion\\PA201.OnionArc\\OnionArch\\src\\Core\\OnionArch.Application\\OnionArch.Application.csproj"
+              "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Application\\OnionArch.Application.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Application\\OnionArch.Application.csproj"
               }
             }
           }
@@ -1126,7 +1122,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -1404,20 +1400,20 @@
         }
       }
     },
-    "C:\\Users\\emilfmi\\Desktop\\Onion\\PA201.OnionArc\\OnionArch\\src\\Presentation\\OnionArch.WebAPI\\OnionArch.WebAPI.csproj": {
+    "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Presentation\\OnionArch.WebAPI\\OnionArch.WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\emilfmi\\Desktop\\Onion\\PA201.OnionArc\\OnionArch\\src\\Presentation\\OnionArch.WebAPI\\OnionArch.WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Presentation\\OnionArch.WebAPI\\OnionArch.WebAPI.csproj",
         "projectName": "OnionArch.WebAPI",
-        "projectPath": "C:\\Users\\emilfmi\\Desktop\\Onion\\PA201.OnionArc\\OnionArch\\src\\Presentation\\OnionArch.WebAPI\\OnionArch.WebAPI.csproj",
-        "packagesPath": "C:\\Users\\emilfmi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\emilfmi\\Desktop\\Onion\\PA201.OnionArc\\OnionArch\\src\\Presentation\\OnionArch.WebAPI\\obj\\",
+        "projectPath": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Presentation\\OnionArch.WebAPI\\OnionArch.WebAPI.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Presentation\\OnionArch.WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\emilfmi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -1426,18 +1422,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\emilfmi\\Desktop\\Onion\\PA201.OnionArc\\OnionArch\\src\\Infastructure\\OnionArch.Infastructure\\OnionArch.Infastructure.csproj": {
-                "projectPath": "C:\\Users\\emilfmi\\Desktop\\Onion\\PA201.OnionArc\\OnionArch\\src\\Infastructure\\OnionArch.Infastructure\\OnionArch.Infastructure.csproj"
+              "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Infastructure\\OnionArch.Infastructure\\OnionArch.Infastructure.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Infastructure\\OnionArch.Infastructure\\OnionArch.Infastructure.csproj"
               },
-              "C:\\Users\\emilfmi\\Desktop\\Onion\\PA201.OnionArc\\OnionArch\\src\\Infastructure\\OnionArch.Persistance\\OnionArch.Persistance.csproj": {
-                "projectPath": "C:\\Users\\emilfmi\\Desktop\\Onion\\PA201.OnionArc\\OnionArch\\src\\Infastructure\\OnionArch.Persistance\\OnionArch.Persistance.csproj"
+              "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Infastructure\\OnionArch.Persistance\\OnionArch.Persistance.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Infastructure\\OnionArch.Persistance\\OnionArch.Persistance.csproj"
               }
             }
           }
@@ -1492,7 +1487,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

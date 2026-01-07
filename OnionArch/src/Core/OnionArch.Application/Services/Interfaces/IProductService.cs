@@ -11,4 +11,5 @@ public interface IProductService
     Task<ResponseModel<ProductReturnDto>> CreateProductAsync(ProductCreateDto productCreateDto);
     Task<ResponseModel<ProductReturnDto>>ProductGetByIdAsync(int id);
     Task<ResponseModel<bool>> DeleteProductAsync (int id);
+    Task<ResponseModel<bool>> UpdateProductAsync(int id, ProductCreateDto productCreateDto);
 }

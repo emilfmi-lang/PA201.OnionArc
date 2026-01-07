@@ -18,7 +18,7 @@ public class ProductCreateDtoValidator : AbstractValidator<ProductCreateDto>
     {
         RuleFor(p => p.Name)
             .NotEmpty().WithMessage("Product name is required.")
-            .MaximumLength(100).WithMessage("Product name cannot exceed 100 characters.");
+            .MaximumLength(20).WithMessage("Product name cannot exceed 20 characters.");
         RuleFor(p => p.Price)
             .GreaterThan(0).WithMessage("Product price must be greater than zero.");
         RuleFor(p => p.CategoryId)
