@@ -49,4 +49,23 @@ public class CategoryService(IApplicationDbContext dbContext, IMapper mapper,
         return ResponseModel<List<CategoryReturnDto>>.Success(categoriesDto);
 
     }
+
+    public async Task<ResponseModel<bool>> UpdateProductAsync(int id, CategoryCreateDto categoryCreateDto)
+    {
+        var category = await dbContext.Categories.FindAsync(id);
+        if (category == null)
+            return ResponseModel<bool>.Failure("Category not found.");
+        var validationResult = await validator.ValidateAsync(categoryCreateDto);
+        if (!validationResult.IsValid)
+        {
+            var errors = validationResult.Errors.Select(e => e.ErrorMessage).ToList();
+            return ResponseModel<bool>.Failure(errors);
+        }
+        if(await dbContext.Categories.AnyAsync(c => c.Name == categoryCreateDto.Name && c.Id != id))
+            return ResponseModel<bool>.Failure("Another category with the same name already exists.");
+        mapper.Map(categoryCreateDto, category);
+        dbContext.Categories.Update(category);
+        await dbContext.SaveChangesAsync();
+        return ResponseModel<bool>.Success(true);
+    }
 }
