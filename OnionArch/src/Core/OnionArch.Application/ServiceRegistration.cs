@@ -15,6 +15,7 @@ public static class ServiceRegistration
             services.AddAutoMapper(cfg => { cfg.AddProfile<MapProfile>(); });
             services.AddValidatorsFromAssembly(typeof(ServiceRegistration).Assembly);
             services.AddScoped<ICategoryService, CategoryService>();
+            services.AddScoped<IProductService, ProductService>();
         }
     }
 }

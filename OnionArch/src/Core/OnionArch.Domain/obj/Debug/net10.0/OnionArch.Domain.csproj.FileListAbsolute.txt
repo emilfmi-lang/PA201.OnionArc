@@ -10,3 +10,15 @@ C:\Users\User\Desktop\Onion.Arc\OnionArch\src\Core\OnionArch.Domain\obj\Debug\ne
 C:\Users\User\Desktop\Onion.Arc\OnionArch\src\Core\OnionArch.Domain\obj\Debug\net10.0\refint\OnionArch.Domain.dll
 C:\Users\User\Desktop\Onion.Arc\OnionArch\src\Core\OnionArch.Domain\obj\Debug\net10.0\OnionArch.Domain.pdb
 C:\Users\User\Desktop\Onion.Arc\OnionArch\src\Core\OnionArch.Domain\obj\Debug\net10.0\ref\OnionArch.Domain.dll
+C:\Users\emilfmi\Desktop\Onion\PA201.OnionArc\OnionArch\src\Core\OnionArch.Domain\bin\Debug\net10.0\OnionArch.Domain.deps.json
+C:\Users\emilfmi\Desktop\Onion\PA201.OnionArc\OnionArch\src\Core\OnionArch.Domain\bin\Debug\net10.0\OnionArch.Domain.dll
+C:\Users\emilfmi\Desktop\Onion\PA201.OnionArc\OnionArch\src\Core\OnionArch.Domain\bin\Debug\net10.0\OnionArch.Domain.pdb
+C:\Users\emilfmi\Desktop\Onion\PA201.OnionArc\OnionArch\src\Core\OnionArch.Domain\obj\Debug\net10.0\OnionArch.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emilfmi\Desktop\Onion\PA201.OnionArc\OnionArch\src\Core\OnionArch.Domain\obj\Debug\net10.0\OnionArch.Domain.AssemblyInfoInputs.cache
+C:\Users\emilfmi\Desktop\Onion\PA201.OnionArc\OnionArch\src\Core\OnionArch.Domain\obj\Debug\net10.0\OnionArch.Domain.AssemblyInfo.cs
+C:\Users\emilfmi\Desktop\Onion\PA201.OnionArc\OnionArch\src\Core\OnionArch.Domain\obj\Debug\net10.0\OnionArch.Domain.csproj.CoreCompileInputs.cache
+C:\Users\emilfmi\Desktop\Onion\PA201.OnionArc\OnionArch\src\Core\OnionArch.Domain\obj\Debug\net10.0\OnionArch.Domain.sourcelink.json
+C:\Users\emilfmi\Desktop\Onion\PA201.OnionArc\OnionArch\src\Core\OnionArch.Domain\obj\Debug\net10.0\OnionArch.Domain.dll
+C:\Users\emilfmi\Desktop\Onion\PA201.OnionArc\OnionArch\src\Core\OnionArch.Domain\obj\Debug\net10.0\refint\OnionArch.Domain.dll
+C:\Users\emilfmi\Desktop\Onion\PA201.OnionArc\OnionArch\src\Core\OnionArch.Domain\obj\Debug\net10.0\OnionArch.Domain.pdb
+C:\Users\emilfmi\Desktop\Onion\PA201.OnionArc\OnionArch\src\Core\OnionArch.Domain\obj\Debug\net10.0\ref\OnionArch.Domain.dll

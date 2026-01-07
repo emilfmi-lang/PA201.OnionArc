@@ -10,3 +10,15 @@ C:\Users\User\Desktop\Onion.Arc\OnionArch\src\Infastructure\OnionArch.Infastruct
 C:\Users\User\Desktop\Onion.Arc\OnionArch\src\Infastructure\OnionArch.Infastructure\obj\Debug\net10.0\refint\OnionArch.Infastructure.dll
 C:\Users\User\Desktop\Onion.Arc\OnionArch\src\Infastructure\OnionArch.Infastructure\obj\Debug\net10.0\OnionArch.Infastructure.pdb
 C:\Users\User\Desktop\Onion.Arc\OnionArch\src\Infastructure\OnionArch.Infastructure\obj\Debug\net10.0\ref\OnionArch.Infastructure.dll
+C:\Users\emilfmi\Desktop\Onion\PA201.OnionArc\OnionArch\src\Infastructure\OnionArch.Infastructure\bin\Debug\net10.0\OnionArch.Infastructure.deps.json
+C:\Users\emilfmi\Desktop\Onion\PA201.OnionArc\OnionArch\src\Infastructure\OnionArch.Infastructure\bin\Debug\net10.0\OnionArch.Infastructure.dll
+C:\Users\emilfmi\Desktop\Onion\PA201.OnionArc\OnionArch\src\Infastructure\OnionArch.Infastructure\bin\Debug\net10.0\OnionArch.Infastructure.pdb
+C:\Users\emilfmi\Desktop\Onion\PA201.OnionArc\OnionArch\src\Infastructure\OnionArch.Infastructure\obj\Debug\net10.0\OnionArch.Infastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emilfmi\Desktop\Onion\PA201.OnionArc\OnionArch\src\Infastructure\OnionArch.Infastructure\obj\Debug\net10.0\OnionArch.Infastructure.AssemblyInfoInputs.cache
+C:\Users\emilfmi\Desktop\Onion\PA201.OnionArc\OnionArch\src\Infastructure\OnionArch.Infastructure\obj\Debug\net10.0\OnionArch.Infastructure.AssemblyInfo.cs
+C:\Users\emilfmi\Desktop\Onion\PA201.OnionArc\OnionArch\src\Infastructure\OnionArch.Infastructure\obj\Debug\net10.0\OnionArch.Infastructure.csproj.CoreCompileInputs.cache
+C:\Users\emilfmi\Desktop\Onion\PA201.OnionArc\OnionArch\src\Infastructure\OnionArch.Infastructure\obj\Debug\net10.0\OnionArch.Infastructure.sourcelink.json
+C:\Users\emilfmi\Desktop\Onion\PA201.OnionArc\OnionArch\src\Infastructure\OnionArch.Infastructure\obj\Debug\net10.0\OnionArch.Infastructure.dll
+C:\Users\emilfmi\Desktop\Onion\PA201.OnionArc\OnionArch\src\Infastructure\OnionArch.Infastructure\obj\Debug\net10.0\refint\OnionArch.Infastructure.dll
+C:\Users\emilfmi\Desktop\Onion\PA201.OnionArc\OnionArch\src\Infastructure\OnionArch.Infastructure\obj\Debug\net10.0\OnionArch.Infastructure.pdb
+C:\Users\emilfmi\Desktop\Onion\PA201.OnionArc\OnionArch\src\Infastructure\OnionArch.Infastructure\obj\Debug\net10.0\ref\OnionArch.Infastructure.dll
