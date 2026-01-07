@@ -16,7 +16,7 @@ public class CategoryService(IApplicationDbContext dbContext, IMapper mapper,
     public async Task<ResponseModel<CategoryReturnDto>> CreateCategoryAsync(CategoryCreateDto categoryDto)
     {
         if (await dbContext.Categories.AnyAsync(c => c.Name == categoryDto.Name))
-            return ResponseModel<CategoryReturnDto>.Failure("Category with the same name already exists.");
+            throw new Exception("Category with the same name already exists.");
         var validationResult = await validator.ValidateAsync(categoryDto);
         if (!validationResult.IsValid)
         {
