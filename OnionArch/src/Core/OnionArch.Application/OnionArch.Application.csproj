@@ -18,8 +18,4 @@
     <ProjectReference Include="..\OnionArch.Domain\OnionArch.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Validators\" />
-  </ItemGroup>
-
 </Project>

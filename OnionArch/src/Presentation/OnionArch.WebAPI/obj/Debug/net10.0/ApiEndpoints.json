@@ -73,6 +73,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "OnionArch.WebAPI.Controllers.ColorController",
+    "Method": "CreateColor",
+    "RelativePath": "api/Color",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createDto",
+        "Type": "OnionArch.Application.Dtos.Color.ColorCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "OnionArch.WebAPI.Controllers.ProductController",
     "Method": "GetAllProducts",
     "RelativePath": "api/Product",

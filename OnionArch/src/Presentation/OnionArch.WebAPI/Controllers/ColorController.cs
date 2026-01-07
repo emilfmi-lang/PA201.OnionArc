@@ -15,4 +15,10 @@ public class ColorController(IColorServices colorServices) : ControllerBase
         var response = await colorServices.GetAllColorsAsync();
         return Ok(response);
     }
+    [HttpPost]
+    public async Task<IActionResult> CreateColor(ColorCreateDto createDto)
+    {
+        var response = await colorServices.CreateColorAsync(createDto);
+        return Ok(response);
+    }
 }

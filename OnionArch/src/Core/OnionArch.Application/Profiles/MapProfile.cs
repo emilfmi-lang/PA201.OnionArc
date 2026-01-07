@@ -27,5 +27,6 @@ public class MapProfile : Profile
         CreateMap<ProductCreateDto, Product>();
         CreateMap<Color, ColorReturnDto>()
             .ConstructUsing(c => new ColorReturnDto(c.Name));
+        CreateMap<ColorCreateDto, Color>();
     }
 }

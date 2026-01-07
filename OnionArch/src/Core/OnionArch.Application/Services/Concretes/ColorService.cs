@@ -1,18 +1,37 @@
 ﻿
 using AutoMapper;
+using FluentValidation;
 using Microsoft.EntityFrameworkCore;
 using OnionArch.Application.Dtos.Color;
 using OnionArch.Application.Interfaces;
 using OnionArch.Application.Models;
 using OnionArch.Application.Services.Interfaces;
+using OnionArch.Domain.Entities;
+
+using System.Drawing;
+using Color = OnionArch.Domain.Entities.Color;
 
 namespace OnionArch.Application.Services.Concretes;
 
-public class ColorService(IApplicationDbContext dbContext,IMapper mapper) : IColorServices
+public class ColorService(IApplicationDbContext dbContext,IMapper mapper,
+    IValidator<ColorCreateDto> validator
+    ) : IColorServices
 {
-    public Task<ResponseModel<ColorReturnDto>> CreateColorAsync(ColorCreateDto colorDto)
+    public async Task<ResponseModel<ColorReturnDto>> CreateColorAsync(ColorCreateDto colorDto)
     {
-        throw new NotImplementedException();
+        if(await dbContext.Colors.AnyAsync(c => c.Name.ToLower() == colorDto.Name.ToLower()))
+            return ResponseModel<ColorReturnDto>.Failure("Color with the same name already exists.");
+        var validationResult = await validator.ValidateAsync(colorDto);
+        if (!validationResult.IsValid)
+        {
+            var errors = validationResult.Errors.Select(e => e.ErrorMessage).ToList();
+            return ResponseModel<ColorReturnDto>.Failure(errors);
+        }
+        var colorEntity = mapper.Map<Color>(colorDto);
+        await dbContext.Colors.AddAsync(colorEntity);
+        await dbContext.SaveChangesAsync();
+        var colorReturnDto = mapper.Map<ColorReturnDto>(colorEntity);
+        return ResponseModel<ColorReturnDto>.Success(colorReturnDto);
     }
 
     public async Task<ResponseModel<List<ColorReturnDto>>> GetAllColorsAsync()
