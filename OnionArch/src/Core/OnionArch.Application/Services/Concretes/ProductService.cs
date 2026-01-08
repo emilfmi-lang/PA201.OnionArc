@@ -25,6 +25,21 @@ public class ProductService(IApplicationDbContext dbContext, IMapper mapper,
             return ResponseModel<ProductReturnDto>.Failure(errors);
         }
         var product = mapper.Map<Product>(productCreateDto);
+        if (productCreateDto.ImageFile != null)
+        {
+            string fileName = Guid.NewGuid().ToString() + Path.GetExtension(productCreateDto.ImageFile.FileName);
+            string folderPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "assets", "images", "products");
+            if (!Directory.Exists(folderPath))
+            {
+                Directory.CreateDirectory(folderPath);
+            }
+            string fullPath = Path.Combine(folderPath, fileName);
+            using (var stream = new FileStream(fullPath, FileMode.Create))
+            {
+                await productCreateDto.ImageFile.CopyToAsync(stream);
+            }
+            product.ImageFile = fileName;
+        }
         await dbContext.Products.AddAsync(product);
         await dbContext.SaveChangesAsync();
         var productDto = mapper.Map<ProductReturnDto>(product);

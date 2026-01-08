@@ -139,9 +139,29 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "createDto",
-        "Type": "OnionArch.Application.Dtos.Product.ProductCreateDto",
-        "IsRequired": true
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Price",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "Status",
+        "Type": "OnionArch.Domain.Enums.ProductStatus",
+        "IsRequired": false
+      },
+      {
+        "Name": "CategoryId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "ImageFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

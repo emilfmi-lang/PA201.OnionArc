@@ -1,5 +1,10 @@
 ﻿using FluentValidation;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+using OnionArch.Application.Attributes;
 using OnionArch.Domain.Enums;
+using System.ComponentModel.DataAnnotations;
+
 
 namespace OnionArch.Application.Dtos.Product;
 
@@ -9,6 +14,11 @@ public record ProductCreateDto
     public decimal Price { get; set; }
     public ProductStatus Status { get; set; }
     public int CategoryId { get; set; }
+
+    [Required(ErrorMessage = "Şəkil mütləq yüklənməlidir.")]
+    [FileLength(2 * 1024 * 1024)] 
+    [FileType(new string[] { ".jpg", ".jpeg", ".png" })]
+    public IFormFile ImageFile { get; set; }
 
 }
 

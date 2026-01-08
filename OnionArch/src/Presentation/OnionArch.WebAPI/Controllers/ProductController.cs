@@ -15,7 +15,8 @@ public class ProductController(IProductService productService) : ControllerBase
         return Ok(response);
     }
     [HttpPost]
-    public async Task<IActionResult> CreateProduct([FromBody] ProductCreateDto createDto)
+    [Consumes("multipart/form-data")]
+    public async Task<IActionResult> CreateProduct([FromForm] ProductCreateDto createDto)
     {
         var response = await productService.CreateProductAsync(createDto);
         return Ok(response);

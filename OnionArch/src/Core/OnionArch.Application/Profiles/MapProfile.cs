@@ -24,7 +24,8 @@ public class MapProfile : Profile
             ));
         //.ForMember(dest => dest.ProductStatusName, opt => opt.MapFrom(src => src.Status.ToString()))
         //.ForMember(dest => dest.CategoryName, opt => opt.MapFrom(src => src.Category.Name));
-        CreateMap<ProductCreateDto, Product>();
+        CreateMap<ProductCreateDto, Product>()
+     .ForMember(dest => dest.ImageFile, opt => opt.Ignore());
         CreateMap<Color, ColorReturnDto>()
             .ConstructUsing(c => new ColorReturnDto(c.Name));
         CreateMap<ColorCreateDto, Color>();

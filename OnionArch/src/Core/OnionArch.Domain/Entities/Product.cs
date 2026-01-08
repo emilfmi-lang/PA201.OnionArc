@@ -12,4 +12,5 @@ public class Product:BaseEntity
     public int CategoryId { get; set; }
     public Category Category { get; set; } = null!;
     public List<ProductColor> ProductColors { get; set; } = new();
+    public string ImageFile { get; set; } = null!;
 }
