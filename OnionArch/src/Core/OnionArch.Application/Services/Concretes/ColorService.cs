@@ -50,4 +50,12 @@ public class ColorService(IApplicationDbContext dbContext,IMapper mapper,
         var colorDtos = mapper.Map<List<ColorReturnDto>>(colors);
         return ResponseModel<List<ColorReturnDto>>.Success(colorDtos);
     }
+    public async Task<ResponseModel<ColorReturnDto>> GetColorByIdAsync(int id)
+    {
+        var color = await dbContext.Colors.FindAsync(id);
+        if (color == null)
+            return ResponseModel<ColorReturnDto>.Failure("Color not found.");
+        var colorDto = mapper.Map<ColorReturnDto>(color);
+        return ResponseModel<ColorReturnDto>.Success(colorDto);
+    }
 }

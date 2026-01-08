@@ -27,4 +27,10 @@ public class ColorController(IColorServices colorServices) : ControllerBase
         var response = await colorServices.DeleteColorAsync(id);
         return Ok(response);
     }
+    [HttpGet("{id}")]
+    public async Task<IActionResult> GetColorById(int id)
+    {
+        var response = await colorServices.GetColorByIdAsync(id);
+        return Ok(response);
+    }
 }
