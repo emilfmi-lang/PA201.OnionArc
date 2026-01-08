@@ -34,7 +34,8 @@ public class ProductController(IProductService productService) : ControllerBase
         return Ok(response);
     }
     [HttpPut("{id}")]
-    public async Task<IActionResult> UpdateProduct(int id, [FromBody] ProductCreateDto updateDto)
+    [Consumes("multipart/form-data")]
+    public async Task<IActionResult> UpdateProduct(int id, [FromForm] ProductCreateDto updateDto)
     {
         var response = await productService.UpdateProductAsync(id, updateDto);
         return Ok(response);

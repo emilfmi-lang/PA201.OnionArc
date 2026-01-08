@@ -20,6 +20,7 @@ public class MapProfile : Profile
                 p.Name,
                 p.Price,
                 p.Category != null ? p.Category.Name : string.Empty,
+                p.ImageFile,
                 p.Status.ToString()
             ));
         //.ForMember(dest => dest.ProductStatusName, opt => opt.MapFrom(src => src.Status.ToString()))

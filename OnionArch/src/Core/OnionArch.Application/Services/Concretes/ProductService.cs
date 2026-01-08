@@ -96,6 +96,26 @@ public class ProductService(IApplicationDbContext dbContext, IMapper mapper,
         if (await dbContext.Products.AnyAsync(p => p.Name == productCreateDto.Name && p.Id != id))
             return ResponseModel<bool>.Failure("Another product with the same name already exists.");
 
+        if(productCreateDto.ImageFile != null)
+        {
+            string folderPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "assets", "images", "products");
+            if (!string.IsNullOrEmpty(product.ImageFile))
+            {
+                string existingFilePath = Path.Combine(folderPath, product.ImageFile);
+                if (System.IO.File.Exists(existingFilePath))
+                {
+                    System.IO.File.Delete(existingFilePath);
+                }
+            }
+            string newFileName = Guid.NewGuid().ToString() + Path.GetExtension(productCreateDto.ImageFile.FileName);
+            string newFullPath = Path.Combine(folderPath, newFileName);
+            using(var stream = new FileStream(newFullPath, FileMode.Create))
+            {
+                await productCreateDto.ImageFile.CopyToAsync(stream);
+            }
+            product.ImageFile = newFileName;
+        }
+
         mapper.Map(productCreateDto, product);
         dbContext.Products.Update(product);
         await dbContext.SaveChangesAsync();
