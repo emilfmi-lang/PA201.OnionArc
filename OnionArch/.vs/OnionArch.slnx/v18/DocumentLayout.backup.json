@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{457E23F9-55D4-D5A3-D73C-3E8DE292B165}|src\\Core\\OnionArch.Domain\\OnionArch.Domain.csproj|c:\\users\\user\\desktop\\onion.arc\\onionarch\\src\\core\\onionarch.domain\\entities\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{457E23F9-55D4-D5A3-D73C-3E8DE292B165}|src\\Core\\OnionArch.Domain\\OnionArch.Domain.csproj|solutionrelative:src\\core\\onionarch.domain\\entities\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FC9C4CB5-31B8-3E80-AE11-40017278D8B9}|src\\Presentation\\OnionArch.WebAPI\\OnionArch.WebAPI.csproj|c:\\users\\user\\desktop\\onion.arc\\onionarch\\src\\presentation\\onionarch.webapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC9C4CB5-31B8-3E80-AE11-40017278D8B9}|src\\Presentation\\OnionArch.WebAPI\\OnionArch.WebAPI.csproj|solutionrelative:src\\presentation\\onionarch.webapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -178,11 +182,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Domain\\Entities\\AppUser.cs",
+              "RelativeDocumentMoniker": "src\\Core\\OnionArch.Domain\\Entities\\AppUser.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Domain\\Entities\\AppUser.cs",
+              "RelativeToolTip": "src\\Core\\OnionArch.Domain\\Entities\\AppUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T21:18:29.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "ProductReturnDto.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Application\\Dtos\\Product\\ProductReturnDto.cs",
               "RelativeDocumentMoniker": "src\\Core\\OnionArch.Application\\Dtos\\Product\\ProductReturnDto.cs",
@@ -190,12 +207,11 @@
               "RelativeToolTip": "src\\Core\\OnionArch.Application\\Dtos\\Product\\ProductReturnDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T11:31:21.56Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-07T11:31:21.56Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ProductCreateDto.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Application\\Dtos\\Product\\ProductCreateDto.cs",
               "RelativeDocumentMoniker": "src\\Core\\OnionArch.Application\\Dtos\\Product\\ProductCreateDto.cs",
@@ -203,12 +219,11 @@
               "RelativeToolTip": "src\\Core\\OnionArch.Application\\Dtos\\Product\\ProductCreateDto.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAQwBQAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T10:26:14.243Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-07T10:26:14.243Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Domain\\Entities\\Product.cs",
               "RelativeDocumentMoniker": "src\\Core\\OnionArch.Domain\\Entities\\Product.cs",
@@ -216,12 +231,11 @@
               "RelativeToolTip": "src\\Core\\OnionArch.Domain\\Entities\\Product.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAqwA4AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T16:54:55.243Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-06T16:54:55.243Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MapProfile.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Application\\Profiles\\MapProfile.cs",
               "RelativeDocumentMoniker": "src\\Core\\OnionArch.Application\\Profiles\\MapProfile.cs",
@@ -229,12 +243,11 @@
               "RelativeToolTip": "src\\Core\\OnionArch.Application\\Profiles\\MapProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T18:31:15.322Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-06T18:31:15.322Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ProductService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Application\\Services\\Concretes\\ProductService.cs",
               "RelativeDocumentMoniker": "src\\Core\\OnionArch.Application\\Services\\Concretes\\ProductService.cs",
@@ -242,12 +255,11 @@
               "RelativeToolTip": "src\\Core\\OnionArch.Application\\Services\\Concretes\\ProductService.cs",
               "ViewState": "AgIAAE0AAAAAAAAAAAAuwFkAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T10:18:31.497Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-07T10:18:31.497Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ResponseModel.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Application\\Models\\ResponseModel.cs",
               "RelativeDocumentMoniker": "src\\Core\\OnionArch.Application\\Models\\ResponseModel.cs",
@@ -255,25 +267,24 @@
               "RelativeToolTip": "src\\Core\\OnionArch.Application\\Models\\ResponseModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T19:26:59.022Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-06T19:26:59.022Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Presentation\\OnionArch.WebAPI\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "src\\Presentation\\OnionArch.WebAPI\\Controllers\\ProductController.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Presentation\\OnionArch.WebAPI\\Controllers\\ProductController.cs",
               "RelativeToolTip": "src\\Presentation\\OnionArch.WebAPI\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAkwCsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-07T10:22:28.945Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "OnionArch.Application.csproj",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Application\\OnionArch.Application.csproj",
               "RelativeDocumentMoniker": "src\\Core\\OnionArch.Application\\OnionArch.Application.csproj",
@@ -281,12 +292,11 @@
               "RelativeToolTip": "src\\Core\\OnionArch.Application\\OnionArch.Application.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-01-06T17:13:29.924Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-06T17:13:29.924Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "FileTypeAttribute.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Application\\Attributes\\FileTypeAttribute.cs",
               "RelativeDocumentMoniker": "src\\Core\\OnionArch.Application\\Attributes\\FileTypeAttribute.cs",
@@ -298,7 +308,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "FileLengthAttribute.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Application\\Attributes\\FileLengthAttribute.cs",
               "RelativeDocumentMoniker": "src\\Core\\OnionArch.Application\\Attributes\\FileLengthAttribute.cs",
@@ -310,7 +320,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "CategoryCreateDto.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Application\\Dtos\\Category\\CategoryCreateDto.cs",
               "RelativeDocumentMoniker": "src\\Core\\OnionArch.Application\\Dtos\\Category\\CategoryCreateDto.cs",
@@ -322,7 +332,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "20260108162502_mig_4.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Infastructure\\OnionArch.Persistance\\Migrations\\20260108162502_mig_4.cs",
               "RelativeDocumentMoniker": "src\\Infastructure\\OnionArch.Persistance\\Migrations\\20260108162502_mig_4.cs",
@@ -334,7 +344,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "ColorController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Presentation\\OnionArch.WebAPI\\Controllers\\ColorController.cs",
               "RelativeDocumentMoniker": "src\\Presentation\\OnionArch.WebAPI\\Controllers\\ColorController.cs",
@@ -346,7 +356,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "CategoryService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Application\\Services\\Concretes\\CategoryService.cs",
               "RelativeDocumentMoniker": "src\\Core\\OnionArch.Application\\Services\\Concretes\\CategoryService.cs",
@@ -358,7 +368,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "ColorService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Application\\Services\\Concretes\\ColorService.cs",
               "RelativeDocumentMoniker": "src\\Core\\OnionArch.Application\\Services\\Concretes\\ColorService.cs",
@@ -370,7 +380,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "IProductService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Application\\Services\\Interfaces\\IProductService.cs",
               "RelativeDocumentMoniker": "src\\Core\\OnionArch.Application\\Services\\Interfaces\\IProductService.cs",
@@ -382,7 +392,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "IColorServices.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Application\\Services\\Interfaces\\IColorServices.cs",
               "RelativeDocumentMoniker": "src\\Core\\OnionArch.Application\\Services\\Interfaces\\IColorServices.cs",
@@ -394,7 +404,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Color.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Domain\\Entities\\Color.cs",
               "RelativeDocumentMoniker": "src\\Core\\OnionArch.Domain\\Entities\\Color.cs",
@@ -406,7 +416,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Domain\\Entities\\Common\\BaseEntity.cs",
               "RelativeDocumentMoniker": "src\\Core\\OnionArch.Domain\\Entities\\Common\\BaseEntity.cs",
@@ -418,7 +428,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "ProductStatus.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Domain\\Enums\\ProductStatus.cs",
               "RelativeDocumentMoniker": "src\\Core\\OnionArch.Domain\\Enums\\ProductStatus.cs",
@@ -430,7 +440,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "ColorCreateValidator.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Application\\Validators\\ColorsValidator\\ColorCreateValidator.cs",
               "RelativeDocumentMoniker": "src\\Core\\OnionArch.Application\\Validators\\ColorsValidator\\ColorCreateValidator.cs",
@@ -442,7 +452,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "CategoriesController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Presentation\\OnionArch.WebAPI\\Controllers\\CategoriesController.cs",
               "RelativeDocumentMoniker": "src\\Presentation\\OnionArch.WebAPI\\Controllers\\CategoriesController.cs",
@@ -454,7 +464,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "ColorCreateDto.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Application\\Dtos\\Color\\ColorCreateDto.cs",
               "RelativeDocumentMoniker": "src\\Core\\OnionArch.Application\\Dtos\\Color\\ColorCreateDto.cs",
@@ -466,7 +476,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "ICategoryService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Application\\Services\\Interfaces\\ICategoryService.cs",
               "RelativeDocumentMoniker": "src\\Core\\OnionArch.Application\\Services\\Interfaces\\ICategoryService.cs",
@@ -478,7 +488,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "ExceptionHandlingMiddleware.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Presentation\\OnionArch.WebAPI\\Middlewares\\ExceptionHandlingMiddleware.cs",
               "RelativeDocumentMoniker": "src\\Presentation\\OnionArch.WebAPI\\Middlewares\\ExceptionHandlingMiddleware.cs",
@@ -490,7 +500,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "ColorReturnDto.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Application\\Dtos\\Color\\ColorReturnDto.cs",
               "RelativeDocumentMoniker": "src\\Core\\OnionArch.Application\\Dtos\\Color\\ColorReturnDto.cs",
@@ -502,7 +512,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "ServiceRegistration.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Application\\ServiceRegistration.cs",
               "RelativeDocumentMoniker": "src\\Core\\OnionArch.Application\\ServiceRegistration.cs",
@@ -514,7 +524,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "IApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Application\\Interfaces\\IApplicationDbContext.cs",
               "RelativeDocumentMoniker": "src\\Core\\OnionArch.Application\\Interfaces\\IApplicationDbContext.cs",
@@ -526,7 +536,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Infastructure\\OnionArch.Persistance\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "src\\Infastructure\\OnionArch.Persistance\\Data\\ApplicationDbContext.cs",
@@ -538,7 +548,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "20260107172218_mig_3.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Infastructure\\OnionArch.Persistance\\Migrations\\20260107172218_mig_3.cs",
               "RelativeDocumentMoniker": "src\\Infastructure\\OnionArch.Persistance\\Migrations\\20260107172218_mig_3.cs",
@@ -550,7 +560,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "ProductColorConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Infastructure\\OnionArch.Persistance\\Configurations\\ProductColorConfiguration.cs",
               "RelativeDocumentMoniker": "src\\Infastructure\\OnionArch.Persistance\\Configurations\\ProductColorConfiguration.cs",
@@ -562,7 +572,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "ProductColor.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Domain\\Entities\\ProductColor.cs",
               "RelativeDocumentMoniker": "src\\Core\\OnionArch.Domain\\Entities\\ProductColor.cs",
@@ -574,7 +584,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "OnionArch.Persistance.csproj",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Infastructure\\OnionArch.Persistance\\OnionArch.Persistance.csproj",
               "RelativeDocumentMoniker": "src\\Infastructure\\OnionArch.Persistance\\OnionArch.Persistance.csproj",
@@ -582,12 +592,11 @@
               "RelativeToolTip": "src\\Infastructure\\OnionArch.Persistance\\OnionArch.Persistance.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-01-06T17:21:30.01Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-06T17:21:30.01Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "ServiceRegistration.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Infastructure\\OnionArch.Persistance\\ServiceRegistration.cs",
               "RelativeDocumentMoniker": "src\\Infastructure\\OnionArch.Persistance\\ServiceRegistration.cs",
@@ -599,7 +608,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Presentation\\OnionArch.WebAPI\\appsettings.Development.json",
               "RelativeDocumentMoniker": "src\\Presentation\\OnionArch.WebAPI\\appsettings.Development.json",
@@ -611,7 +620,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Domain\\Entities\\Category.cs",
               "RelativeDocumentMoniker": "src\\Core\\OnionArch.Domain\\Entities\\Category.cs",
@@ -623,7 +632,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "20260107111039_mig_2.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Infastructure\\OnionArch.Persistance\\Migrations\\20260107111039_mig_2.cs",
               "RelativeDocumentMoniker": "src\\Infastructure\\OnionArch.Persistance\\Migrations\\20260107111039_mig_2.cs",
@@ -635,7 +644,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "OnionArch.WebAPI.csproj",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Presentation\\OnionArch.WebAPI\\OnionArch.WebAPI.csproj",
               "RelativeDocumentMoniker": "src\\Presentation\\OnionArch.WebAPI\\OnionArch.WebAPI.csproj",
@@ -643,12 +652,11 @@
               "RelativeToolTip": "src\\Presentation\\OnionArch.WebAPI\\OnionArch.WebAPI.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-01-06T17:58:47.637Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-06T17:58:47.637Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Presentation\\OnionArch.WebAPI\\appsettings.json",
               "RelativeDocumentMoniker": "src\\Presentation\\OnionArch.WebAPI\\appsettings.json",
@@ -660,7 +668,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Presentation\\OnionArch.WebAPI\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "src\\Presentation\\OnionArch.WebAPI\\Properties\\launchSettings.json",
@@ -672,7 +680,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "20260106181900_mig_1.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Infastructure\\OnionArch.Persistance\\Migrations\\20260106181900_mig_1.cs",
               "RelativeDocumentMoniker": "src\\Infastructure\\OnionArch.Persistance\\Migrations\\20260106181900_mig_1.cs",
@@ -684,7 +692,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "OnionArch.Domain.csproj",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Domain\\OnionArch.Domain.csproj",
               "RelativeDocumentMoniker": "src\\Core\\OnionArch.Domain\\OnionArch.Domain.csproj",
@@ -692,8 +700,7 @@
               "RelativeToolTip": "src\\Core\\OnionArch.Domain\\OnionArch.Domain.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-01-06T16:52:24.696Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-06T16:52:24.696Z"
             }
           ]
         }
