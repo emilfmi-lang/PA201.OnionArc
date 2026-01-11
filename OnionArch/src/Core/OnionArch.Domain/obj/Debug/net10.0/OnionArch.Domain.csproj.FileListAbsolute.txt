@@ -22,3 +22,4 @@ C:\Users\emilfmi\Desktop\Onion\PA201.OnionArc\OnionArch\src\Core\OnionArch.Domai
 C:\Users\emilfmi\Desktop\Onion\PA201.OnionArc\OnionArch\src\Core\OnionArch.Domain\obj\Debug\net10.0\refint\OnionArch.Domain.dll
 C:\Users\emilfmi\Desktop\Onion\PA201.OnionArc\OnionArch\src\Core\OnionArch.Domain\obj\Debug\net10.0\OnionArch.Domain.pdb
 C:\Users\emilfmi\Desktop\Onion\PA201.OnionArc\OnionArch\src\Core\OnionArch.Domain\obj\Debug\net10.0\ref\OnionArch.Domain.dll
+C:\Users\User\Desktop\Onion.Arc\OnionArch\src\Core\OnionArch.Domain\obj\Debug\net10.0\OnionArch.Domain.csproj.AssemblyReference.cache

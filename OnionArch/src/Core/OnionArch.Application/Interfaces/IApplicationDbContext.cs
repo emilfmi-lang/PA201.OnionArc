@@ -9,5 +9,5 @@ public interface IApplicationDbContext
     DbSet<Product> Products { get; set; }
     DbSet<Color> Colors { get; set; }
     DbSet<ProductColor> ProductColors { get; set; }
-    Task<int> SaveChangesAsync();
+    Task<int> SaveChangesAsync(CancellationToken cancellationToken = default);
 }

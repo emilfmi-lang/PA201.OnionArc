@@ -1,6 +1,5 @@
 ﻿using FluentValidation;
 using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
 using OnionArch.Application.Attributes;
 using OnionArch.Domain.Enums;
 using System.ComponentModel.DataAnnotations;

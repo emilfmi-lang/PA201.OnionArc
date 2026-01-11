@@ -361,3 +361,4 @@ C:\Users\emilfmi\Desktop\Onion\PA201.OnionArc\OnionArch\src\Presentation\OnionAr
 C:\Users\emilfmi\Desktop\Onion\PA201.OnionArc\OnionArch\src\Presentation\OnionArch.WebAPI\obj\Debug\net10.0\OnionArch.WebAPI.genruntimeconfig.cache
 C:\Users\emilfmi\Desktop\Onion\PA201.OnionArc\OnionArch\src\Presentation\OnionArch.WebAPI\obj\Debug\net10.0\ref\OnionArch.WebAPI.dll
 C:\Users\User\Desktop\Onion.Arc\OnionArch\src\Presentation\OnionArch.WebAPI\bin\Debug\net10.0\OnionArch.WebAPI.staticwebassets.runtime.json
+C:\Users\User\Desktop\Onion.Arc\OnionArch\src\Presentation\OnionArch.WebAPI\bin\Debug\net10.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
