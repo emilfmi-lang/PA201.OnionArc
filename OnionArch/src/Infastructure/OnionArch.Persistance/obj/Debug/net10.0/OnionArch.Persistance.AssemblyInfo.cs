@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OnionArch.Persistance")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0f0d048ef1da4b12e6d62ab7470a1fd8de1fda15")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fe177325af3d210cb8b3a0dc5e96a63f0ca25612")]
 [assembly: System.Reflection.AssemblyProductAttribute("OnionArch.Persistance")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OnionArch.Persistance")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
