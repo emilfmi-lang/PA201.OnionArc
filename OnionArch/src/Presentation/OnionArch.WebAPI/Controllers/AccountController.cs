@@ -14,4 +14,9 @@ public class AccountController(IAccountService accountService) : ControllerBase
     {
         return Ok("Qeydiyyat ugurludur");
     }
+    [HttpPost("login")]
+    public async Task<IActionResult> Login(UserLoginDto userLogin)
+    {
+        return Ok("Giris ugurludur");
+    }
 }
