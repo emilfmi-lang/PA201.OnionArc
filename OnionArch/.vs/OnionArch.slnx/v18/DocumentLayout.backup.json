@@ -64,7 +64,7 @@
               "RelativeDocumentMoniker": "src\\Presentation\\OnionArch.WebAPI\\Controllers\\AccountController.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\Onion.Arc\\OnionArch\\src\\Presentation\\OnionArch.WebAPI\\Controllers\\AccountController.cs",
               "RelativeToolTip": "src\\Presentation\\OnionArch.WebAPI\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAAA4AAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-12T05:23:18.369Z",
               "EditorCaption": ""
@@ -79,8 +79,7 @@
               "RelativeToolTip": "src\\Core\\OnionArch.Application\\Validators\\AccountValidator\\AppUserLoginValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T05:19:30.518Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-12T05:19:30.518Z"
             },
             {
               "$type": "Document",
@@ -116,8 +115,7 @@
               "RelativeToolTip": "src\\Core\\OnionArch.Application\\Services\\Interfaces\\IAccountService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-11T11:50:31.16Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-11T11:50:31.16Z"
             },
             {
               "$type": "Document",

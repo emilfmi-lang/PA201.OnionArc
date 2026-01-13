@@ -19,7 +19,6 @@ public static class ServiceRegistration
             services.AddScoped<ICategoryService, CategoryService>();
             services.AddScoped<IProductService, ProductService>();
             services.AddScoped<IColorServices, ColorService>();
-            services.AddScoped<IAccountService, AccountService>();
             
         }
     }
