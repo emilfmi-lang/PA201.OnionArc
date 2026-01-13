@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v10.0": {
       "OnionArch.Infastructure/1.0.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "10.0.1"
+          "OnionArch.Domain": "1.0.0"
         },
         "runtime": {
           "OnionArch.Infastructure.dll": {}
@@ -270,6 +270,17 @@
             "fileVersion": "10.0.125.57005"
           }
         }
+      },
+      "OnionArch.Domain/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "10.0.1"
+        },
+        "runtime": {
+          "OnionArch.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -432,6 +443,11 @@
       "sha512": "sha512-DO8XrJkp5x4PddDuc/CH37yDBCs9BYN6ijlKyR3vMb55BP1Vwh90vOX8bNfnKxr5B2qEI3D8bvbY1fFbDveDHQ==",
       "path": "microsoft.extensions.primitives/10.0.1",
       "hashPath": "microsoft.extensions.primitives.10.0.1.nupkg.sha512"
+    },
+    "OnionArch.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

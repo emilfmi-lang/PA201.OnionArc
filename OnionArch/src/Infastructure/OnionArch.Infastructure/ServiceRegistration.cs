@@ -1,8 +1,13 @@
-﻿
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.Extensions.DependencyInjection;
 
 namespace OnionArch.Infastructure;
 
-public static class ServiceRegistration { }
-
+public static class ServiceRegistration
+{
+    extension(IServiceCollection services)
+    {
+        public void AddInfrastructureServices()
+        {
+        }
+    }
+}

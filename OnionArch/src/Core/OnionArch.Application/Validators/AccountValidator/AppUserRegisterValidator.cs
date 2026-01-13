@@ -25,7 +25,7 @@ public class AppUserRegisterValidator: AbstractValidator<UserRegisterDto>
             .Matches("[a-z]").WithMessage("Şifrə ən azı 1 kiçik hərf içerməlidir")
             .Matches("[0-9]").WithMessage("Şifrə ən azı 1 rəqəm içerməlidir");
 
-        RuleFor(x => x.FullName)
+        RuleFor(x => x.ConfirmPassword)
             .NotEmpty().WithMessage("Ad Soyad boş ola bilməz")
             .MinimumLength(3).WithMessage("Ad Soyad minimum 3 simvol olmalıdır");
     }

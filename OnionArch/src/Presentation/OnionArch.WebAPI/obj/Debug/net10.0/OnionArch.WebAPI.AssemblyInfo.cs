@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OnionArch.WebAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ee876869981f64aab66d9aa7afba5b5b26d4f324")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e8908585c4cce72801d5073e0b1c7d1c8c829acb")]
 [assembly: System.Reflection.AssemblyProductAttribute("OnionArch.WebAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OnionArch.WebAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -23,3 +23,6 @@ C:\Users\emilfmi\Desktop\Onion\PA201.OnionArc\OnionArch\src\Infastructure\OnionA
 C:\Users\emilfmi\Desktop\Onion\PA201.OnionArc\OnionArch\src\Infastructure\OnionArch.Infastructure\obj\Debug\net10.0\OnionArch.Infastructure.pdb
 C:\Users\emilfmi\Desktop\Onion\PA201.OnionArc\OnionArch\src\Infastructure\OnionArch.Infastructure\obj\Debug\net10.0\ref\OnionArch.Infastructure.dll
 C:\Users\User\Desktop\Onion.Arc\OnionArch\src\Infastructure\OnionArch.Infastructure\obj\Debug\net10.0\OnionArch.Infastructure.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Onion.Arc\OnionArch\src\Infastructure\OnionArch.Infastructure\bin\Debug\net10.0\OnionArch.Domain.dll
+C:\Users\User\Desktop\Onion.Arc\OnionArch\src\Infastructure\OnionArch.Infastructure\bin\Debug\net10.0\OnionArch.Domain.pdb
+C:\Users\User\Desktop\Onion.Arc\OnionArch\src\Infastructure\OnionArch.Infastructure\obj\Debug\net10.0\OnionArc.251C0DF0.Up2Date
