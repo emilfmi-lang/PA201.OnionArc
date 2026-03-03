@@ -1,5 +1,37 @@
 [
   {
+    "ContainingType": "OnionArch.WebAPI.Controllers.AccountController",
+    "Method": "Login",
+    "RelativePath": "api/Account/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userLogin",
+        "Type": "OnionArch.Application.Dtos.AppUser.UserLoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnionArch.WebAPI.Controllers.AccountController",
+    "Method": "Register",
+    "RelativePath": "api/Account/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userRegister",
+        "Type": "OnionArch.Application.Dtos.AppUser.UserRegisterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "OnionArch.WebAPI.Controllers.CategoriesController",
     "Method": "GetAllCategories",
     "RelativePath": "api/Categories",
