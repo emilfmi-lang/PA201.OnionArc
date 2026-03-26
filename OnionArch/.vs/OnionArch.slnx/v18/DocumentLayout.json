@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\User\\OneDrive\\Desktop\\Onion.Arc\\OnionArch\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{457E23F9-55D4-D5A3-D73C-3E8DE292B165}|src\\Core\\OnionArch.Domain\\OnionArch.Domain.csproj|c:\\users\\user\\onedrive\\desktop\\onion.arc\\onionarch\\src\\core\\onionarch.domain\\entities\\productsize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{457E23F9-55D4-D5A3-D73C-3E8DE292B165}|src\\Core\\OnionArch.Domain\\OnionArch.Domain.csproj|solutionrelative:src\\core\\onionarch.domain\\entities\\productsize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{457E23F9-55D4-D5A3-D73C-3E8DE292B165}|src\\Core\\OnionArch.Domain\\OnionArch.Domain.csproj|c:\\users\\user\\onedrive\\desktop\\onion.arc\\onionarch\\src\\core\\onionarch.domain\\entities\\size.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{457E23F9-55D4-D5A3-D73C-3E8DE292B165}|src\\Core\\OnionArch.Domain\\OnionArch.Domain.csproj|solutionrelative:src\\core\\onionarch.domain\\entities\\size.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -95,6 +99,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ProductSize.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Domain\\Entities\\ProductSize.cs",
+              "RelativeDocumentMoniker": "src\\Core\\OnionArch.Domain\\Entities\\ProductSize.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Domain\\Entities\\ProductSize.cs",
+              "RelativeToolTip": "src\\Core\\OnionArch.Domain\\Entities\\ProductSize.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T18:30:12.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Size.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Domain\\Entities\\Size.cs",
               "RelativeDocumentMoniker": "src\\Core\\OnionArch.Domain\\Entities\\Size.cs",
@@ -107,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Payment.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Domain\\Entities\\Payment.cs",
               "RelativeDocumentMoniker": "src\\Core\\OnionArch.Domain\\Entities\\Payment.cs",
@@ -115,12 +132,11 @@
               "RelativeToolTip": "src\\Core\\OnionArch.Domain\\Entities\\Payment.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-05T19:20:45.621Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-05T19:20:45.621Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "OrderItem.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Domain\\Entities\\OrderItem.cs",
               "RelativeDocumentMoniker": "src\\Core\\OnionArch.Domain\\Entities\\OrderItem.cs",
@@ -132,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ProductCreateDto.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Application\\Dtos\\Product\\ProductCreateDto.cs",
               "RelativeDocumentMoniker": "src\\Core\\OnionArch.Application\\Dtos\\Product\\ProductCreateDto.cs",
@@ -144,7 +160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "FileTypeAttribute.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Application\\Attributes\\FileTypeAttribute.cs",
               "RelativeDocumentMoniker": "src\\Core\\OnionArch.Application\\Attributes\\FileTypeAttribute.cs",
@@ -156,7 +172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "FileLengthAttribute.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Application\\Attributes\\FileLengthAttribute.cs",
               "RelativeDocumentMoniker": "src\\Core\\OnionArch.Application\\Attributes\\FileLengthAttribute.cs",
@@ -168,7 +184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "OnionArch.Application.csproj",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Application\\OnionArch.Application.csproj",
               "RelativeDocumentMoniker": "src\\Core\\OnionArch.Application\\OnionArch.Application.csproj",
@@ -180,7 +196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "AppUserRegisterValidator.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Application\\Validators\\AccountValidator\\AppUserRegisterValidator.cs",
               "RelativeDocumentMoniker": "src\\Core\\OnionArch.Application\\Validators\\AccountValidator\\AppUserRegisterValidator.cs",
@@ -192,7 +208,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "UserLoginDto.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Application\\Dtos\\AppUser\\UserLoginDto.cs",
               "RelativeDocumentMoniker": "src\\Core\\OnionArch.Application\\Dtos\\AppUser\\UserLoginDto.cs",
@@ -204,7 +220,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "UserRegisterDto.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Application\\Dtos\\AppUser\\UserRegisterDto.cs",
               "RelativeDocumentMoniker": "src\\Core\\OnionArch.Application\\Dtos\\AppUser\\UserRegisterDto.cs",
@@ -216,7 +232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Onion.Arc\\OnionArch\\src\\Presentation\\OnionArch.WebAPI\\Program.cs",
               "RelativeDocumentMoniker": "src\\Presentation\\OnionArch.WebAPI\\Program.cs",
@@ -228,7 +244,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "ServiceRegistration.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Application\\ServiceRegistration.cs",
               "RelativeDocumentMoniker": "src\\Core\\OnionArch.Application\\ServiceRegistration.cs",
@@ -240,7 +256,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Onion.Arc\\OnionArch\\src\\Presentation\\OnionArch.WebAPI\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "src\\Presentation\\OnionArch.WebAPI\\Controllers\\AccountController.cs",
@@ -252,7 +268,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "ServiceRegistration.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Onion.Arc\\OnionArch\\src\\Infastructure\\OnionArch.Infastructure\\ServiceRegistration.cs",
               "RelativeDocumentMoniker": "src\\Infastructure\\OnionArch.Infastructure\\ServiceRegistration.cs",
@@ -264,7 +280,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "AppUser.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Domain\\Entities\\AppUser.cs",
               "RelativeDocumentMoniker": "src\\Core\\OnionArch.Domain\\Entities\\AppUser.cs",
@@ -276,7 +292,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "IAccountService.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Application\\Services\\Interfaces\\IAccountService.cs",
               "RelativeDocumentMoniker": "src\\Core\\OnionArch.Application\\Services\\Interfaces\\IAccountService.cs",
@@ -288,7 +304,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "AppUserLoginValidator.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Application\\Validators\\AccountValidator\\AppUserLoginValidator.cs",
               "RelativeDocumentMoniker": "src\\Core\\OnionArch.Application\\Validators\\AccountValidator\\AppUserLoginValidator.cs",
@@ -300,7 +316,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "AccountService.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Onion.Arc\\OnionArch\\src\\Core\\OnionArch.Application\\Services\\Concretes\\AccountService.cs",
               "RelativeDocumentMoniker": "src\\Core\\OnionArch.Application\\Services\\Concretes\\AccountService.cs",
@@ -312,7 +328,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "OnionArch.Infastructure.csproj",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Onion.Arc\\OnionArch\\src\\Infastructure\\OnionArch.Infastructure\\OnionArch.Infastructure.csproj",
               "RelativeDocumentMoniker": "src\\Infastructure\\OnionArch.Infastructure\\OnionArch.Infastructure.csproj",

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OnionArch.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+367e12979dd127df6fffb3f7194027b9a5b0c0f5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+856139921fd36b897653ae0d1ac678cc59fb288f")]
 [assembly: System.Reflection.AssemblyProductAttribute("OnionArch.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OnionArch.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
