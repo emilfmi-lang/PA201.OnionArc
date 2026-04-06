@@ -18,7 +18,6 @@ public class ExceptionHandlingMiddleware(RequestDelegate next)
             var response = JsonSerializer.Serialize(responseModel);
             context.Response.StatusCode = StatusCodes.Status500InternalServerError;
             await context.Response.WriteAsync(response);
-
         }
     }
 
